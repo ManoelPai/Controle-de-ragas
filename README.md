@@ -1,4 +1,4 @@
-# Controle-de-ragas
+d# Controle-de-ragas
 git init
 git remote add origin https://github.com/SEU_USUARIO/controle-pragas-sincop.git
 # Adicione os arquivos baixados manualmente no diretório
@@ -17,3 +17,6 @@ controle-pragas-sincop/
 ├── postcss.config.js
 ├── .gitignore
 └── README.md
+cd functions
+npm install
+firebase deploy --only functions
